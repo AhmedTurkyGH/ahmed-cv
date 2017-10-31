@@ -1,0 +1,212 @@
+/* AH.CSS 4.05 October 2017 by Jan Egil and Borge Refsnes */
+html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
+/* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
+html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}
+audio,canvas,progress,video{display:inline-block}progress{vertical-align:baseline}
+audio:not([controls]){display:none;height:0}[hidden],template{display:none}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+dfn{font-style:italic}mark{background:#ff0;color:#000}
+small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}svg:not(:root){overflow:hidden}
+code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
+button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}
+legend{color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}
+[type=checkbox],[type=radio]{padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+[type=search]{-webkit-appearance:textfield;outline-offset:-2px}
+[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-input-placeholder{color:inherit;opacity:0.54}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+/* End extract */
+html,body{font-family:Verdana,sans-serif;font-size:15px;line-height:1.5}html{overflow-x:hidden}
+h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}.AH-serif{font-family:serif}
+h1,h2,h3,h4,h5,h6{font-family:"Segoe UI",Arial,sans-serif;font-weight:400;margin:10px 0}.AH-wide{letter-spacing:4px}
+hr{border:0;border-top:1px solid #eee;margin:20px 0}
+.AH-image{max-width:100%;height:auto}img{margin-bottom:-5px}a{color:inherit}
+.AH-table,.AH-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.AH-table-all{border:1px solid #ccc}
+.AH-bordered tr,.AH-table-all tr{border-bottom:1px solid #ddd}.AH-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.AH-table-all tr:nth-child(odd){background-color:#fff}.AH-table-all tr:nth-child(even){background-color:#f1f1f1}
+.AH-hoverable tbody tr:hover,.AH-ul.AH-hoverable li:hover{background-color:#ccc}.AH-centered tr th,.AH-centered tr td{text-align:center}
+.AH-table td,.AH-table th,.AH-table-all td,.AH-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.AH-table th:first-child,.AH-table td:first-child,.AH-table-all th:first-child,.AH-table-all td:first-child{padding-left:16px}
+.AH-btn,.AH-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.AH-btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.AH-btn,.AH-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}   
+.AH-disabled,.AH-btn:disabled,.AH-button:disabled{cursor:not-allowed;opacity:0.3}.AH-disabled *,:disabled *{pointer-events:none}
+.AH-btn.AH-disabled:hover,.AH-btn:disabled:hover{box-shadow:none}
+.AH-badge,.AH-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}.AH-badge{border-radius:50%}
+.AH-ul{list-style-type:none;padding:0;margin:0}.AH-ul li{padding:8px 16px;border-bottom:1px solid #ddd}.AH-ul li:last-child{border-bottom:none}
+.AH-tooltip,.AH-display-container{position:relative}.AH-tooltip .AH-text{display:none}.AH-tooltip:hover .AH-text{display:inline-block}
+.AH-ripple:active{opacity:0.5}.AH-ripple{transition:opacity 0s}
+.AH-input{padding:8px;display:block;border:none;border-bottom:1px solid #ccc;width:100%}
+.AH-select{padding:9px 0;width:100%;border:none;border-bottom:1px solid #ccc}
+.AH-dropdown-click,.AH-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.AH-dropdown-hover:hover .AH-dropdown-content{display:block;z-index:1}
+.AH-dropdown-hover:first-child,.AH-dropdown-click:hover{background-color:#ccc;color:#000}
+.AH-dropdown-hover:hover > .AH-button:first-child,.AH-dropdown-click:hover > .AH-button:first-child{background-color:#ccc;color:#000}
+.AH-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
+.AH-check,.AH-radio{width:24px;height:24px;position:relative;top:6px}
+.AH-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.AH-bar-block .AH-dropdown-hover,.AH-bar-block .AH-dropdown-click{width:100%}
+.AH-bar-block .AH-dropdown-hover .AH-dropdown-content,.AH-bar-block .AH-dropdown-click .AH-dropdown-content{min-width:100%}
+.AH-bar-block .AH-dropdown-hover .AH-button,.AH-bar-block .AH-dropdown-click .AH-button{width:100%;text-align:left;padding:8px 16px}
+.AH-main,#main{transition:margin-left .4s}
+.AH-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.AH-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.AH-bar{width:100%;overflow:hidden}.AH-center .AH-bar{display:inline-block;width:auto}
+.AH-bar .AH-bar-item{padding:8px 16px;float:left;width:auto;border:none;outline:none;display:block}
+.AH-bar .AH-dropdown-hover,.AH-bar .AH-dropdown-click{position:static;float:left}
+.AH-bar .AH-button{white-space:normal}
+.AH-bar-block .AH-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;outline:none;white-space:normal;float:none}
+.AH-bar-block.AH-center .AH-bar-item{text-align:center}.AH-block{display:block;width:100%}
+.AH-responsive{display:block;overflow-x:auto}
+.AH-container:after,.AH-container:before,.AH-panel:after,.AH-panel:before,.AH-row:after,.AH-row:before,.AH-row-padding:after,.AH-row-padding:before,
+.AH-cell-row:before,.AH-cell-row:after,.AH-clear:after,.AH-clear:before,.AH-bar:before,.AH-bar:after{content:"";display:table;clear:both}
+.AH-col,.AH-half,.AH-third,.AH-twothird,.AH-threequarter,.AH-quarter{float:left;width:100%}
+.AH-col.s1{width:8.33333%}.AH-col.s2{width:16.66666%}.AH-col.s3{width:24.99999%}.AH-col.s4{width:33.33333%}
+.AH-col.s5{width:41.66666%}.AH-col.s6{width:49.99999%}.AH-col.s7{width:58.33333%}.AH-col.s8{width:66.66666%}
+.AH-col.s9{width:74.99999%}.AH-col.s10{width:83.33333%}.AH-col.s11{width:91.66666%}.AH-col.s12{width:99.99999%}
+@media (min-width:601px){.AH-col.m1{width:8.33333%}.AH-col.m2{width:16.66666%}.AH-col.m3,.AH-quarter{width:24.99999%}.AH-col.m4,.AH-third{width:33.33333%}
+.AH-col.m5{width:41.66666%}.AH-col.m6,.AH-half{width:49.99999%}.AH-col.m7{width:58.33333%}.AH-col.m8,.AH-twothird{width:66.66666%}
+.AH-col.m9,.AH-threequarter{width:74.99999%}.AH-col.m10{width:83.33333%}.AH-col.m11{width:91.66666%}.AH-col.m12{width:99.99999%}}
+@media (min-width:993px){.AH-col.l1{width:8.33333%}.AH-col.l2{width:16.66666%}.AH-col.l3{width:24.99999%}.AH-col.l4{width:33.33333%}
+.AH-col.l5{width:41.66666%}.AH-col.l6{width:49.99999%}.AH-col.l7{width:58.33333%}.AH-col.l8{width:66.66666%}
+.AH-col.l9{width:74.99999%}.AH-col.l10{width:83.33333%}.AH-col.l11{width:91.66666%}.AH-col.l12{width:99.99999%}}
+.AH-content{max-width:980px;margin:auto}.AH-rest{overflow:hidden}
+.AH-cell-row{display:table;width:100%}.AH-cell{display:table-cell}
+.AH-cell-top{vertical-align:top}.AH-cell-middle{vertical-align:middle}.AH-cell-bottom{vertical-align:bottom}
+.AH-hide{display:none!important}.AH-show-block,.AH-show{display:block!important}.AH-show-inline-block{display:inline-block!important}
+@media (max-width:600px){.AH-modal-content{margin:0 10px;width:auto!important}.AH-modal{padding-top:30px}
+.AH-dropdown-hover.AH-mobile .AH-dropdown-content,.AH-dropdown-click.AH-mobile .AH-dropdown-content{position:relative}    
+.AH-hide-small{display:none!important}.AH-mobile{display:block;width:100%!important}.AH-bar-item.AH-mobile,.AH-dropdown-hover.AH-mobile,.AH-dropdown-click.AH-mobile{text-align:center}
+.AH-dropdown-hover.AH-mobile,.AH-dropdown-hover.AH-mobile .AH-btn,.AH-dropdown-hover.AH-mobile .AH-button,.AH-dropdown-click.AH-mobile,.AH-dropdown-click.AH-mobile .AH-btn,.AH-dropdown-click.AH-mobile .AH-button{width:100%}}
+@media (max-width:768px){.AH-modal-content{width:500px}.AH-modal{padding-top:50px}}
+@media (min-width:993px){.AH-modal-content{width:900px}.AH-hide-large{display:none!important}.AH-sidebar.AH-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.AH-hide-medium{display:none!important}}
+@media (max-width:992px){.AH-sidebar.AH-collapse{display:none}.AH-main{margin-left:0!important;margin-right:0!important}}
+.AH-top,.AH-bottom{position:fixed;width:100%;z-index:1}.AH-top{top:0}.AH-bottom{bottom:0}
+.AH-overlay{position:fixed;display:none;width:100%;height:100%;top:0;left:0;right:0;bottom:0;background-color:rgba(0,0,0,0.5);z-index:2}
+.AH-display-topleft{position:absolute;left:0;top:0}.AH-display-topright{position:absolute;right:0;top:0}
+.AH-display-bottomleft{position:absolute;left:0;bottom:0}.AH-display-bottomright{position:absolute;right:0;bottom:0}
+.AH-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.AH-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.AH-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.AH-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.AH-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.AH-display-container:hover .AH-display-hover{display:block}.AH-display-container:hover span.AH-display-hover{display:inline-block}.AH-display-hover{display:none}
+.AH-display-position{position:absolute}
+.AH-circle{border-radius:50%}
+.AH-round-small{border-radius:2px}.AH-round,.AH-round-medium{border-radius:4px}.AH-round-large{border-radius:8px}.AH-round-xlarge{border-radius:16px}.AH-round-xxlarge{border-radius:32px}
+.AH-row-padding,.AH-row-padding>.AH-half,.AH-row-padding>.AH-third,.AH-row-padding>.AH-twothird,.AH-row-padding>.AH-threequarter,.AH-row-padding>.AH-quarter,.AH-row-padding>.AH-col{padding:0 8px}
+.AH-container,.AH-panel{padding:0.01em 16px}.AH-panel{margin-top:16px;margin-bottom:16px}
+.AH-code,.AH-codespan{font-family:Consolas,"courier new";font-size:16px}
+.AH-code{width:auto;background-color:#fff;padding:8px 12px;border-left:4px solid #4CAF50;word-wrap:break-word}
+.AH-codespan{color:crimson;background-color:#f1f1f1;padding-left:4px;padding-right:4px;font-size:110%}
+.AH-card,.AH-card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.AH-card-4,.AH-hover-shadow:hover{box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)}
+.AH-spin{animation:AH-spin 2s infinite linear}@keyframes AH-spin{0%{transform:rotate(0deg)}100%{transform:rotate(359deg)}}
+.AH-animate-fading{animation:fading 10s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+.AH-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.AH-animate-top{position:relative;animation:animatetop 0.4s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}}
+.AH-animate-left{position:relative;animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+.AH-animate-right{position:relative;animation:animateright 0.4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+.AH-animate-bottom{position:relative;animation:animatebottom 0.4s}@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.AH-animate-zoom {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}
+.AH-animate-input{transition:width 0.4s ease-in-out}.AH-animate-input:focus{width:100%!important}
+.AH-opacity,.AH-hover-opacity:hover{opacity:0.60}.AH-opacity-off,.AH-hover-opacity-off:hover{opacity:1}
+.AH-opacity-max{opacity:0.25}.AH-opacity-min{opacity:0.75}
+.AH-greyscale-max,.AH-grayscale-max,.AH-hover-greyscale:hover,.AH-hover-grayscale:hover{filter:grayscale(100%)}
+.AH-greyscale,.AH-grayscale{filter:grayscale(75%)}.AH-greyscale-min,.AH-grayscale-min{filter:grayscale(50%)}
+.AH-sepia{filter:sepia(75%)}.AH-sepia-max,.AH-hover-sepia:hover{filter:sepia(100%)}.AH-sepia-min{filter:sepia(50%)}
+.AH-tiny{font-size:10px!important}.AH-small{font-size:12px!important}.AH-medium{font-size:15px!important}.AH-large{font-size:18px!important}
+.AH-xlarge{font-size:24px!important}.AH-xxlarge{font-size:36px!important}.AH-xxxlarge{font-size:48px!important}.AH-jumbo{font-size:64px!important}
+.AH-left-align{text-align:left!important}.AH-right-align{text-align:right!important}.AH-justify{text-align:justify!important}.AH-center{text-align:center!important}
+.AH-border-0{border:0!important}.AH-border{border:1px solid #ccc!important}
+.AH-border-top{border-top:1px solid #ccc!important}.AH-border-bottom{border-bottom:1px solid #ccc!important}
+.AH-border-left{border-left:1px solid #ccc!important}.AH-border-right{border-right:1px solid #ccc!important}
+.AH-topbar{border-top:6px solid #ccc!important}.AH-bottombar{border-bottom:6px solid #ccc!important}
+.AH-leftbar{border-left:6px solid #ccc!important}.AH-rightbar{border-right:6px solid #ccc!important}
+.AH-section,.AH-code{margin-top:16px!important;margin-bottom:16px!important}
+.AH-margin{margin:16px!important}.AH-margin-top{margin-top:16px!important}.AH-margin-bottom{margin-bottom:16px!important}
+.AH-margin-left{margin-left:16px!important}.AH-margin-right{margin-right:16px!important}
+.AH-padding-small{padding:4px 8px!important}.AH-padding{padding:8px 16px!important}.AH-padding-large{padding:12px 24px!important}
+.AH-padding-16{padding-top:16px!important;padding-bottom:16px!important}.AH-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.AH-padding-32{padding-top:32px!important;padding-bottom:32px!important}.AH-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.AH-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.AH-left{float:left!important}.AH-right{float:right!important}
+.AH-button:hover{color:#000!important;background-color:#ccc!important}
+.AH-transparent,.AH-hover-none:hover{background-color:transparent!important}
+.AH-hover-none:hover{box-shadow:none!important}
+/* Colors */
+.AH-amber,.AH-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
+.AH-aqua,.AH-hover-aqua:hover{color:#000!important;background-color:#00ffff!important}
+.AH-blue,.AH-hover-blue:hover{color:#fff!important;background-color:#2196F3!important}
+.AH-light-blue,.AH-hover-light-blue:hover{color:#000!important;background-color:#87CEEB!important}
+.AH-brown,.AH-hover-brown:hover{color:#fff!important;background-color:#795548!important}
+.AH-cyan,.AH-hover-cyan:hover{color:#000!important;background-color:#00bcd4!important}
+.AH-blue-grey,.AH-hover-blue-grey:hover,.AH-blue-gray,.AH-hover-blue-gray:hover{color:#fff!important;background-color:#607d8b!important}
+.AH-green,.AH-hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.AH-light-green,.AH-hover-light-green:hover{color:#000!important;background-color:#8bc34a!important}
+.AH-indigo,.AH-hover-indigo:hover{color:#fff!important;background-color:#3f51b5!important}
+.AH-khaki,.AH-hover-khaki:hover{color:#000!important;background-color:#f0e68c!important}
+.AH-lime,.AH-hover-lime:hover{color:#000!important;background-color:#cddc39!important}
+.AH-orange,.AH-hover-orange:hover{color:#000!important;background-color:#ff9800!important}
+.AH-deep-orange,.AH-hover-deep-orange:hover{color:#fff!important;background-color:#ff5722!important}
+.AH-pink,.AH-hover-pink:hover{color:#fff!important;background-color:#e91e63!important}
+.AH-purple,.AH-hover-purple:hover{color:#fff!important;background-color:#9c27b0!important}
+.AH-deep-purple,.AH-hover-deep-purple:hover{color:#fff!important;background-color:#673ab7!important}
+.AH-red,.AH-hover-red:hover{color:#fff!important;background-color:#f44336!important}
+.AH-sand,.AH-hover-sand:hover{color:#000!important;background-color:#fdf5e6!important}
+.AH-teal,.AH-hover-teal:hover{color:#fff!important;background-color:#009688!important}
+.AH-yellow,.AH-hover-yellow:hover{color:#000!important;background-color:#ffeb3b!important}
+.AH-white,.AH-hover-white:hover{color:#000!important;background-color:#fff!important}
+.AH-black,.AH-hover-black:hover{color:#fff!important;background-color:#000!important}
+.AH-grey,.AH-hover-grey:hover,.AH-gray,.AH-hover-gray:hover{color:#000!important;background-color:#bbb!important}
+.AH-light-grey,.AH-hover-light-grey:hover,.AH-light-gray,.AH-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.AH-dark-grey,.AH-hover-dark-grey:hover,.AH-dark-gray,.AH-hover-dark-gray:hover{color:#fff!important;background-color:#616161!important}
+.AH-pale-red,.AH-hover-pale-red:hover{color:#000!important;background-color:#ffdddd!important}
+.AH-pale-green,.AH-hover-pale-green:hover{color:#000!important;background-color:#ddffdd!important}
+.AH-pale-yellow,.AH-hover-pale-yellow:hover{color:#000!important;background-color:#ffffcc!important}
+.AH-pale-blue,.AH-hover-pale-blue:hover{color:#000!important;background-color:#ddffff!important}
+.AH-text-red,.AH-hover-text-red:hover{color:#f44336!important}
+.AH-text-green,.AH-hover-text-green:hover{color:#4CAF50!important}
+.AH-text-blue,.AH-hover-text-blue:hover{color:#2196F3!important}
+.AH-text-yellow,.AH-hover-text-yellow:hover{color:#ffeb3b!important}
+.AH-text-white,.AH-hover-text-white:hover{color:#fff!important}
+.AH-text-black,.AH-hover-text-black:hover{color:#000!important}
+.AH-text-grey,.AH-hover-text-grey:hover,.AH-text-gray,.AH-hover-text-gray:hover{color:#757575!important}
+.AH-text-amber{color:#ffc107!important}
+.AH-text-aqua{color:#00ffff!important}
+.AH-text-light-blue{color:#87CEEB!important}
+.AH-text-brown{color:#795548!important}
+.AH-text-cyan{color:#00bcd4!important}
+.AH-text-blue-grey,.AH-text-blue-gray{color:#607d8b!important}
+.AH-text-light-green{color:#8bc34a!important}
+.AH-text-indigo{color:#3f51b5!important}
+.AH-text-khaki{color:#b4aa50!important}
+.AH-text-lime{color:#cddc39!important}
+.AH-text-orange{color:#ff9800!important}
+.AH-text-deep-orange{color:#ff5722!important}
+.AH-text-pink{color:#e91e63!important}
+.AH-text-purple{color:#9c27b0!important}
+.AH-text-deep-purple{color:#673ab7!important}
+.AH-text-sand{color:#fdf5e6!important}
+.AH-text-teal{color:#009688!important}
+.AH-text-light-grey,.AH-hover-text-light-grey:hover,.AH-text-light-gray,.AH-hover-text-light-gray:hover{color:#f1f1f1!important}
+.AH-text-dark-grey,.AH-hover-text-dark-grey:hover,.AH-text-dark-gray,.AH-hover-text-dark-gray:hover{color:#3a3a3a!important}
+.AH-border-red,.AH-hover-border-red:hover{border-color:#f44336!important}
+.AH-border-green,.AH-hover-border-green:hover{border-color:#4CAF50!important}
+.AH-border-blue,.AH-hover-border-blue:hover{border-color:#2196F3!important}
+.AH-border-yellow,.AH-hover-border-yellow:hover{border-color:#ffeb3b!important}
+.AH-border-white,.AH-hover-border-white:hover{border-color:#fff!important}
+.AH-border-black,.AH-hover-border-black:hover{border-color:#000!important}
+.AH-border-grey,.AH-hover-border-grey:hover,.AH-border-gray,.AH-hover-border-gray:hover{border-color:#bbb!important}
+
+
